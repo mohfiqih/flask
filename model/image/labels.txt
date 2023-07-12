@@ -1,0 +1,6 @@
+0 Anak Laki-Laki
+1 Anak Perempuan
+2 Remaja Laki-Laki
+3 Remaja Perempuan
+4 Dewasa Laki-Laki
+5 Dewasa Perempuan

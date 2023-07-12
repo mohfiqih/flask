@@ -1,0 +1,795 @@
+{
+     "intents": [{
+               "tag": "greeting",
+               "patterns": [
+                    "Hallo",
+                    "halo",
+                    "Apa kabar",
+                    "Ada orang disana?",
+                    "Hei",
+                    "Hai",
+                    "hai",
+                    "hei",
+                    "p",
+                    "how are you",
+                    "salom",
+                    "pagi",
+                    "Pagi",
+                    "pagiii",
+                    "Pagiii",
+                    "siang",
+                    "Siang",
+                    "sore",
+                    "Sore",
+                    "malam",
+                    "Malam"
+               ],
+               "responses": [
+                    "Hallo kak, Saya Mibot Ada yang bisa saya bantu?"
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "salam",
+               "patterns": [
+                    "Assalamualaikum",
+                    "Salam",
+                    "Ass",
+                    "assalamualaikum",
+                    "asalamualaikum",
+                    "salamkum",
+                    "samlekom"
+               ],
+               "responses": [
+                    "Waalaikumsalam"
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "bertanya",
+               "patterns": [
+                    "saya ingin bertanya",
+                    "mau nanya",
+                    "bertanya",
+                    "nanya",
+                    "tanya",
+                    "Saya mau tanya",
+                    "saya mau tanya",
+                    "mau tanya",
+                    "ingin bertanya",
+                    "pengin tanya dong",
+                    "ingin tanya",
+                    "pengin tanya",
+                    "bertanya-tanya",
+                    "bertanya tanya",
+                    "aku nanya",
+                    "boleh nanya?",
+                    "boleh tanya?"
+               ],
+               "responses": [
+                    "Tentu saja bisa jelaskan pertanyaan anda?"
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "goodbye",
+               "patterns": [
+                    "Bye",
+                    "Sampai Jumpa",
+                    "Selamat Tinggal",
+                    "Dadah",
+                    "Dahh",
+                    "dah",
+                    "bye",
+                    "dadah",
+                    "good bye",
+                    "Good Bye",
+                    "sampai jumpa"
+               ],
+               "responses": [
+                    "Senang berbincang dengan anda!"
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "thanks",
+               "patterns": [
+                    "Terima Kasih",
+                    "Makasih",
+                    "Thanks",
+                    "makasi",
+                    "Thank you",
+                    "thanks",
+                    "Terima Kasih Banyak",
+                    "Terima kasih telah membantu saya",
+                    "makasih",
+                    "Terimakasih",
+                    "Terima kasih",
+                    "makaciw",
+                    "maaciw",
+                    "makasiw",
+                    "Makasihh"
+               ],
+               "responses": [
+                    "Sama-sama, sudah menjadi tugas saya"
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "noanswer",
+               "patterns": [
+                    ""
+               ],
+               "responses": [
+                    "Maaf kak, bisa diulang pertanyaannya?"
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Film",
+               "patterns": [
+                    "Apa itu film?",
+                    "Apa si film?",
+                    "Pengertian film",
+                    "film adalah",
+                    "apa itu film",
+                    "Apa Itu Film"
+               ],
+               "responses": [
+                    "Film (bahasa Inggris: movie, juga dikenal sebagai gambar hidup, film teater atau foto bergerak) adalah serangkaian gambar diam, yang ketika ditampilkan pada layar akan menciptakan ilusi gambar bergerak yang dikarenakan efek fenomena phi. Ilusi optik ini memaksa penonton untuk melihat gerakan berkelanjutan antar objek yang berbeda secara cepat dan berturut-turut."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Proses pembuatan film",
+               "patterns": [
+                    "Bagaimana proses pembuatan film?",
+                    "proses pembuatan film"
+               ],
+               "responses": [
+                    "Proses pembuatan film adalah gabungan dari seni dan industri. Sebuah film dapat dibuat dengan memotret adegan sungguhan dengan kamera film, memotret gambar atau model miniatur menggunakan teknik animasi tradisional, dengan CGI dan animasi komputer, atau dengan kombinasi beberapa teknik yang ada dan efek visual lainnya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Cara pembuatan film",
+               "patterns": [
+                    "Bagaimana cara pembuatan film?",
+                    "cara pembuatan film"
+               ],
+               "responses": [
+                    "Seorang penulis naskah akan menulis sebuah naskah, yang berisi tentang cerita yang akan difilmkan dan kata-kata yang akan diucapkan artis. Kemudian seorang produser akan menyewa orang untuk bekerja pada film tersebut dan mendapatkan uang yang akan dibutuhkan untuk membayar para artis dan peralatan. Produser biasanya mendapatkan uang dengan meminjamnya dari sebuah bank atau dengan mencari investor untuk dipinjami uang untuk pembuatan film. Beberapa produser bekerja untuk sebuah studio film dan yang lainnya bekerja secara independen (mereka tidak bekerja untuk studio film). Artis dan sutradara membaca naskah untuk mengetahui apa yang harus dikatakan dan apa yang harus dilakukan. Kemudian sutradara memberitahu artis apa yang harus dilakukan dan seorang kameramen akan mengambil gambarnya dengan kamera film. Ketika film terselesaikan, seorang editor meletakan gambar secara bersama-sama yang akan disusun untuk membentuk keseluruhan cerita dengan durasi tertentu. Editor suara dan musik akan merekam beberapa musik dan nyanyian dan menggabungkannya ke dalam gambar film. Setelah selesai, banyak salinan yang dibuat dan ditaruh ke sebuah gulungan film. kemudian gulungan film dikirim ke bioskop-bioskop. Sebuah mesin elektrik yang disebut proyektor akan mengeluarkan sinar melewati gulungan film yang diputar dan gambarnya akan muncul di layar besar untuk dinikmati penonton."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Genre",
+               "patterns": [
+                    "Apa itu genre?",
+                    "genre itu apa?",
+                    "genre itu?",
+                    "kepanjangan genre?"
+               ],
+               "responses": [
+                    "Genre adalah sebutan untuk membedakan berbagai jenis film. Film bisa jadi bersifat fiksi (dibuat-buat) atau kisah nyata ataupun campuran keduanya. Walaupun ratusan film dibuat setiap tahunnya tetapi hanya sedikit film hanya menggunakan satu genre kebanyakan menggabungkan dua genre atau lebih."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Genre Film",
+               "patterns": [
+                    "Apa saja genre film?",
+                    "genre film apa saja?",
+                    "genre film ada apa aja"
+               ],
+               "responses": [
+                    "Aksi, Petualangan, Animasi, Persahabatan, Komedi, Dokumenter, Drama, Tragedi, Film Noir, Keluarga, Horor, Romantis, Fiksi Sains, Thriller, Kejahatan, Western, Suspense, Fantasi, Gore, dan Perang"
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Aksi",
+               "patterns": [
+                    "Apa itu Aksi?",
+                    "aksi?"
+               ],
+               "responses": [
+                    "Film ini menampilkan efek dan adegan yang mencengangkan seperti kejar-kejaran menggunakan mobil ataupun tembak-tembakan yang melibatkan stuntman. Genre ini biasanya menceritakan kebaikan yang melawan kejahatan, jadi perang dan kriminal adalah subjek yang biasa. Film aksi biasanya hanya membutuhkan usaha yang kecil untuk ditonton, karena alur yang biasanya sederhana."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian petualangan",
+               "patterns": [
+                    "Apa itu petualangan?",
+                    "petualangan"
+               ],
+               "responses": [
+                    "Biasanya menceritakan tokoh utama yang melakukan perjalanan untuk menyelamatkan dunia atau orang terdekatnya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Animasi",
+               "patterns": [
+                    "Apa itu Animasi?",
+                    "Animasi"
+               ],
+               "responses": [
+                    "Film yang menggunakan karakter kartun sebagai tokohnya. Gambarnya dulu harus digambar oleh tangan, tetapi sekarang lebih sering menggunakan komputer."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian persahabatan",
+               "patterns": [
+                    "Apa itu persahabatan",
+                    "persahabatan"
+               ],
+               "responses": [
+                    "Melibatkan dua orang tokoh, di mana yang satu harus menyelamatkan yang lainnya dan keduanya harus mengatasi masalah yang menghadang. Film persahabatan kadang-kadang dicampur komedi, tetapi ada juga yang dibumbuhi sedikit emosi, karena persahabatan di antara keduanya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Komedi",
+               "patterns": [
+                    "Apa itu Komedi?",
+                    "Komedi"
+               ],
+               "responses": [
+                    "Film lucu tentang orang bodoh yang melakukan hal aneh atau menjadi bodoh dan terlibat hal konyol yang membuat penonton tertawa."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian dokumenter",
+               "patterns": [
+                    "Apa itu Dokumenter?",
+                    "Dokumenter"
+               ],
+               "responses": [
+                    "Film tentang (atau diklaim tentang) kehidupan nyata seseorang dan kejadian nyata. Genre ini hampir selalu serius dan mungkin melibatkan emosi yang kuat, contoh film Catatan Terakhir Di Nusakambangan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian Drama",
+               "patterns": [
+                    "Apa itu Drama?",
+                    "Drama"
+               ],
+               "responses": [
+                    "Film serius dan kadang-kadang tentang orang yang jatuh cinta atau perlu membuat keputusan yang besar dalam hidup mereka. Genre ini menceritakan tentang hubungan di antara manusia. Genre ini biasanya mengikuti alur dasar di mana 1 atau 2 karakter harus mengatasi sebuah rintangan untuk mendapatkan apa yang mereka mau. didasarkan pada cerita fiktif yang sifatnya menghibur. "
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian tragedi",
+               "patterns": [
+                    "Apa itu Tragedi?",
+                    "Tragedi"
+               ],
+               "responses": [
+                    "Tragedi mirip dengan drama, tentang orang yang sedang memiliki masalah. Contoh, sepasang suami istri yang bercerai dan masing-masing harus membuktikan ke pengadilan bahwa mereka adalah yang terbaik untuk mengasuh anak mereka. Emosi (perasaan) adalah bagian terbesar dari film ini dan penonton mungkin jadi bingung dan bahkan menangis."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Pengertian film noir",
+               "patterns": [
+                    "Apa itu Film Noir?",
+                    "Film Noir"
+               ],
+               "responses": [
+                    "Film drama detektif era 1940-an tentang kriminal dan kekerasan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian keluarga",
+               "patterns": [
+                    "Apa itu Keluarga?",
+                    "Keluarga"
+               ],
+               "responses": [
+                    "Film yang dibuat dengan baik untuk semua keluarga. Genre ini kebanyakan dibuat untuk anak-anak, tetapi kadang menghibur juga untuk orang dewasa. Disney terkenal karena film Keluarga mereka."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian horor",
+               "patterns": [
+                    "Apa itu Horor?",
+                    "Horor"
+               ],
+               "responses": [
+                    "Film yang menggunakan ketakutan untuk menarik penonton. Musik, pencahayaan dan latar, semua ditambahkan untuk menambahkan sensasi dan pengalaman."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian romantis",
+               "patterns": [
+                    "Apa itu Romantis?",
+                    "Romantis"
+               ],
+               "responses": [
+                    "Komedi romantis biasanya tentang cerita cinta dua orang yang berasal dari dunia berbeda, yang harus melewati rintangan agar bisa bersama."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian fiksi sains",
+               "patterns": [
+                    "Apa itu Fiksi Sains?",
+                    "Fiksi Sains"
+               ],
+               "responses": [
+                    "Berlatar masa depan atau luar angkasa. Biasanya menceritakan dunia fiksi berimajinasi tentang sebagian besar makhluk luar angkasa (monster) ataupun hal-hal yang berbau robot."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian thriller",
+               "patterns": [
+                    "Apa itu Thriller?",
+                    "Thriller"
+               ],
+               "responses": [
+                    "Biasanya tentang misteri, kejadian aneh, atau kriminal yang harus dipecahkan. Penonton akan tetap menebak-nebak sampai akhir film, ketika biasanya ada akhir yang twist (mengejutkan)."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian kejahatan",
+               "patterns": [
+                    "Apa itu Kejahatan?",
+                    "Kejahatan"
+               ],
+               "responses": [
+                    "menceritakan yang berfokus pada kehidupan kejahatan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian western",
+               "patterns": [
+                    "Apa itu Western?",
+                    "Western"
+               ],
+               "responses": [
+                    "menceritakan tentang koboi di barat (Amerika 1800-an). Genre ini bisa jadi melibatkan suku Indian (penduduk asli amerika)."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian suspense",
+               "patterns": [
+                    "Apa itu Suspense?",
+                    "Suspense"
+               ],
+               "responses": [
+                    "Film yang membuat anda tetap duduk di kursi anda. Genre ini biasanya memiliki lebih dari satu twist yang bisa membingungkan penonton."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian fantasi",
+               "patterns": [
+                    "Apa itu Fantasi?",
+                    "Fantasi"
+               ],
+               "responses": [
+                    "Film fantasi ini melibatkan sihir dan hal yang mustahil yang tidak bisa dilakukan manusia sungguhan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian gore",
+               "patterns": [
+                    "Apa itu Gore?",
+                    "Gore"
+               ],
+               "responses": [
+                    "Film yang sering memperlihatkan aksi brutal atau hal-hal sadis yang berlumuran darah dan sebagainya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian perang",
+               "patterns": [
+                    "Apa itu Perang?",
+                    "Perang"
+               ],
+               "responses": [
+                    "genre film yang berkaitan dengan perang, biasanya sekitar angkatan laut, angkatan udara atau angkatan darat, kadang-kadang fokus pada tawanan perang, operasi rahasia, pendidikan dan pelatihan militer atau topik terkait lainnya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "Unsur-unsur film",
+               "patterns": [
+                    "Apa saja unsur-unsur film?",
+                    "Unsur-unsur fillm",
+                    "unsur-unsur"
+               ],
+               "responses": [
+                    "Film secara umum dapat dibagi atas dua unsur pembentuk, yakni unsur naratif dan unsur sinematik, Dua unsur tersebut saling berinteraksi dan berkesinambungan satu sama lain. Unsur naratif adalah bahan yang diolah, sedangkan unsur sinematik adalah aspek-aspek teknis pembentukan film, terdiri dari mise-en-scene, sinematografi, editing, dan suara yang terdapat dalam film"
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian alur",
+               "patterns": [
+                    "Apa itu Alur film?",
+                    "Alur film",
+                    "Alur"
+               ],
+               "responses": [
+                    "Plot (alur) Sebuah film mampu memanipulasi cerita melalui alur. Alur adalah rangkaian peristiwa yang disajikan secara visual dan audio dalam film"
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pembuat film",
+               "patterns": [
+                    "Pembuat film disebut?",
+                    "pembuat film"
+               ],
+               "responses": [
+                    "Sutradara atau pembuat film adalah orang yang bertugas mengarahkan sebuah film sesuai dengan manuskrip, pembuat film juga digunakan untuk merujuk pada produser film. Manuskrip skenario digunakan untuk mengontrol aspek-aspek seni dan drama."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "media",
+               "patterns": [
+                    "Film termasuk ke media apa?",
+                    "Film masuk ke media apa?"
+               ],
+               "responses": [
+                    "Film merupakan bagian dari media komunikasi massa yang sering kali digunakan sebagai media yang menggambarkan kehidupan sosial dalam masyarakat. Film sebagai salah satu atribut media massa menjadi sarana komunikasi yang paling efektif."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "tahapan pembuatan film",
+               "patterns": [
+                    "Berapa tahap pembuatan film?",
+                    "tahap pembuatan film",
+                    "tahap"
+               ],
+               "responses": [
+                    "Film sendiri dibuat dalam beberapa tahap: pra-produksi, produksi, dan pascaproduksi. Ketiga tahap itu merupakan inti dari pembuatan film. Namun ada dua tahap yang belum banyak diketahui oleh filmmaker: development atau pengembangan skenario dan distribusi film atau pengiriman film agar bertemu dengan penonton."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "durasi film",
+               "patterns": [
+                    "Berapa rata-rata durasi film?",
+                    "rata-rata durasi",
+                    "durasi"
+               ],
+               "responses": [
+                    "Umumnya berkisar antara 90-100 menit. Film yang diputar di bioskop umumnya termasuk dalam kelompok ini. Be- berapa film, misalnya Dance With Wolves, bahkan berdurasi lebih dari 120 menit. Film-film produksi India rata-rata berdurasi hingga 180 menit."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "penemu film",
+               "patterns": [
+                    "Siapa penemu pertama film?",
+                    "penemu"
+               ],
+               "responses": [
+                    "Louis Aimé Augustin Le Prince adalah seorang penemu asal Prancis yang menembakkan gambar bergerak pertama pada kertas film menggunakan kamera lensa tunggal. Dia telah dikenal sebagai Bapak Sinematografi sejak tahun 1930."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "film pertama dibuat",
+               "patterns": [
+                    "Kapan pertama kali film dibuat?",
+                    "pertama kali",
+                    "dibuat"
+               ],
+               "responses": [
+                    "Untuk jawaban pertanyaan di atas, The Horse in Motion adalah film pertama yang dibuat di dunia pada tahun 1878. Dikutip dari laman Heads Up, Senin (13/3), film ini dibuat menggunakan beberapa kamera dan merakit gambar-gambar terpisah menjadi satu gambar bergerak."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "peran yang ada di film",
+               "patterns": [
+                    "Peran apa saja yang ada di film?",
+                    "peran apa saja",
+                    "peran"
+               ],
+               "responses": [
+                    "Sutradara, Produser, Penulis Skrip, Aktor, Tim artistik, Kameramen, Editor."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pembuatan film",
+               "patterns": [
+                    "Pembuatan film ada apa saja?",
+                    "pembuatan film"
+               ],
+               "responses": [
+                    "1. Sutradara, 2. Produser, 3. Script supervisor, 4. Aktor, 5. Make up artist, 6. Penata busana, 7. Kameramen, 8. Editor, 9. Penulis naskah, 10. Art director."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "pengertian naskah",
+               "patterns": [
+                    "Naskah Film disebut?",
+                    "naskah film",
+                    "naskah"
+               ],
+               "responses": [
+                    "Skenario, adegan layar (screenplay) atau naskah film ialah cetak biru yang ditulis untuk film atau acara televisi. Skenario dapat dihasilkan dalam bentuk olahan asli atau adaptasi dari penulisan yang sudah ada seperti hasil sastra."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "sejarah film",
+               "patterns": [
+                    "Apa itu sejarah film?",
+                    "sejarah film"
+               ],
+               "responses": [
+                    "Sejarah film menerangkan tentang perbedaan perspektif bagaimana film tersebut dibuat, dan perbedaan daya tarik dan tujuan dari film itu sendiri. Apa yang dilakukan sejarawan film? Sejarawan film selalu mengumpulkan bukti-bukti yang didapat. Menghubungkan fakta satu dengan yang lainnya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "berapa proses pembuatan film",
+               "patterns": [
+                    "Berapa lama proses pembuatan film?",
+                    "berapa lama"
+               ],
+               "responses": [
+                    "Kebanyakan proses produksi film biasanya menghabiskan waktu selama enam bulan hingga setahun. Terkadang bisa ditambahkan beberapa bulan jika film yang digarap dianggap belum maksimal. Namun, ada beberapa film yang ternyata membutuhkan waktu bertahun-tahun untuk proses penggarapannya, loh."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "yang terlibat dalam pembuatan film",
+               "patterns": [
+                    "Siapa saja yang terlibat dalam pembuatan film?",
+                    "terlibat"
+               ],
+               "responses": [
+                    "Departemen Produksi. Departemen Penyutradaraan. Departemen Casting. Departemen Suara."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "dampak",
+               "patterns": [
+                    "Apa dampak positif dalam film?",
+                    "dampak positif",
+                    "positif"
+               ],
+               "responses": [
+                    "Menonton film dapat memberikan banyak manfaat, antara lain bisa meningkatkan kesehatan mental, menghilangkan stres, dan memengaruhi bagaimana individu berperilaku di kehidupan sehari-hari."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "hari film",
+               "patterns": [
+                    "Kapan Hari film sedunia?",
+                    "hari film"
+               ],
+               "responses": [
+                    "Mengutip situs Kemdikbud, penetapan 30 Maret sebagai Hari Film Nasional berdasarkan Keputusan Presiden Republik Indonesia Nomor 25 tahun 1999. Sebab pada tanggal 30 Maret 1950 untuk pertama kalinya sebuah film diproduksi oleh perusahaan Indonesia dan disutradarai oleh orang Indonesia, H. Usmar Ismail."
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "manfaat",
+               "patterns": [
+                    "Apa manfaat film?",
+                    "manfaat"
+               ],
+               "responses": [
+                    "Mengatasi stres. Manfaat pertama dari menonton film adalah mampu mengatasi stres yang sedang dirasakan. Meningkatkan suasana hati. Sarana Relaksasi. Psikoterapi. Meningkatkan hubungan sosial."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "perbedaan serial dan film",
+               "patterns": [
+                    "Apa bedanya serial dan film?",
+                    "serial dan film"
+               ],
+               "responses": [
+                    "Movie sendiri memiliki arti sebagai film. Berarti, sebuah suguhan audio visual yang jalan ceritanya berlangsung selama dua hingga tiga jam. Sementara series memiliki pengertian sebagai serial. Dalam Kamus Besar Bahasa Indonesia (KBBI), serial berarti berturut-turut; berurutan; bersambungan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "asal film",
+               "patterns": [
+                    "Darimana asal film?",
+                    "asal film"
+               ],
+               "responses": [
+                    "Film yang diakui sebagai sinema pertama di dunia tersebut diputar di Boulevard des Capucines, Paris, Prancis dengan judul Workers Leaving the Lumière's Factory pada tanggal 28 Desember 1895 yang kemudian ditetapkan sebagai hari lahirnya sinematografi."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "produser",
+               "patterns": [
+                    "Apa tugas dan fungsi produser film?",
+                    "produser"
+               ],
+               "responses": [
+                    "Produser adalah orang yang memprakarsai, mengoordinasi, mengawasi, serta mengelola aspek manajerial dan administratif pada produksi sebuah film. Mereka terlibat di seluruh fase produksi dari awal hingga selesai."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "sutradara",
+               "patterns": [
+                    "Apa tugas dan fungsi sutradara film?",
+                    "sutradara"
+               ],
+               "responses": [
+                    "Sutradara adalah orang yang berperan besar dalam suatu produksi program televisi atau film, sebagai pemimpin seorang sutradara harus bisa menguasai semua konten yang tertulis pada naskah dan menjadikannya sebuah audio visual. Sutradara bertugas memberikan informasi, mengarahkan, mengatur, memberikan catatan, dan memimpin para aktor agar dapat memerankan karakter masing-masing sebaik mungkin."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "penulis skript",
+               "patterns": [
+                    "Apa tugas dan fungsi penulis skript film?",
+                    "penulis skript",
+                    "penulis skrip"
+               ],
+               "responses": [
+                    "Penulis Skrip adalah profesi yang mana kamu harus membuat konten untuk acara televisi, video, atau film. Naskah harus diciptakan secara menarik dan menghibur untuk ditonton dan dibeli oleh pemirsa. Biasanya, tugas script writer akan mengembangkan alur cerita, karakter, dan dialog dalam bentuk tertentu.Tugas dari script writer adalah mengembangkan alur cerita, karakter, dan dialog dalam bentuk tertentu. Beberapa penulis naskah memiliki untuk fokus dalam genre tertentu, seperti horor, komedi, romansa, aksi, dan lainnya. Akan tetapi, ada juga yang mengembangkan bakatnya dan menulis untuk berbagai genre."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "aktor",
+               "patterns": [
+                    "Apa tugas dan fungsi aktor film?",
+                    "aktor"
+               ],
+               "responses": [
+                    "Aktor adalah orang yang memerankan seorang tokoh dalam sebuah film. Aktor dapat dipilih oleh seorang sutradara yang sudah mempunyai gambaran akan aktor yang akan memerankan tokoh dalam naskah yang sudah sutradara baca. Tugas aktor adalah Memainkan karakter dalam produksi film, televisi, radio, atau teater, untuk kepentingan hiburan atau informasi. Tidak semua aktor tampil di film layar besar. Justru kebanyakan aktor tampil di produksi yang lebih kecil, seperti di pertunjukan teater kecil, iklan, atau figuran di acara televisi atau film."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "make up artist",
+               "patterns": [
+                    "Apa tugas dan fungsi Make Up Artist film?",
+                    "make up artist"
+               ],
+               "responses": [
+                    "Perias atau yang lebih beken dengan istilah make-up artist (MUA) adalah orang-orang yang melakoni pekerjaan merias wajah, terkadang juga menata rambut klien untuk berbagai kepentingan. Mulai dari pesta, wisuda, pernikahan, ataupun keperluan pemotretan, panggung, dan peragaan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "penata busana",
+               "patterns": [
+                    "Apa tugas dan fungsi penata busana film?",
+                    "penata busana"
+               ],
+               "responses": [
+                    "Rias dan Busana adalah bidang yang fokus pada keahlian menghias wajah dan pakaian. Di jurusan ini, Quipperian akan mempelajari struktur wajah, jeni-jenis alat kecantikan, dan tentu saja teknik menghias wajah. Sementara, menghias pakaian menitik beratkan pada pembelajaran teknik penyempurnaan hiasan pakaian. Penata busana umumnya bertugas memberi rekomendasi busana untuk klien individual. Karier ini memadukan segala aspek dari estetika visual seseorang agar penampilannya tampak menarik dan bergaya."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "camerammen",
+               "patterns": [
+                    "Apa tugas dan fungsi kameramen film?",
+                    "kameramen",
+                    "cameramen"
+               ],
+               "responses": [
+                    "Kameramen (juru kamera) bertanggung jawab untuk semua aspek teknis pemotretan dan merekam gambar. Seorang Kameramen harus memastikan bahwa tidak ada kesalahan lakukan saat ia mengambil gambar. Peran kameramen dalam produksi film pendek tidak hanya bekerja sebatas melakukan pengambilan gambar. Namun, kameramen juga memiliki peran dalam mempersiapkan peralatan produksi dan bertanggung jawab atas seluruh kelengkapan peralatan dari awal hingga produksi berakhir."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "editor",
+               "patterns": [
+                    "Apa tugas dan fungsi editor film?",
+                    "editor"
+               ],
+               "responses": [
+                    "Editor atau penyunting adalah orang, atau program, yang melakukan penyuntingan (pengeditan), perubahan pada suatu naskah, berita, audio, gambar, video, film baik di media cetak, media elektronik, maupun di media baru. Mengedit naskah yang telah diubah sesuai dengan bahasa EYD (Ejaan Yang Disesuaikan) ataupun bahasa yang sesuai dengan standarisasi penerbit. "
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "penulis naskah",
+               "patterns": [
+                    "Apa tugas dan fungsi penulis naskah film?",
+                    "penulis naskah"
+               ],
+               "responses": [
+                    "Penulis naskah adalah penulis yang memiliki kemampuan dalam penulisan skenario, dan orang pertama yang memberikan gagasan ide cerita kepada produser dan sutradara. Langkah pertama adalah pencarian sebuah ide berdasarkan referensi dari buku atau televisi drama. mengembangkan dan meriset ide-ide untuk skenario film. membuat kerangka kerja atau treatment awal untuk skenario. menulis atau mengadaptasi cerita menjadi sebuah naskah. bertemu dengan eksekutif film untuk mengajukan skenario dan gagasan."
+
+               ],
+               "context": [""]
+          },
+          {
+               "tag": "art director",
+               "patterns": [
+                    "Apa tugas dan fungsi art director film?",
+                    "art director"
+               ],
+               "responses": [
+                    "Art director merupakan seseorang yang bertanggung jawab atas tampilan visual secara keseluruhan di berbagai media seperti majalah, koran, kemasan, film bahkan produksi televisi. Seorang art director bertanggung jawab akan aspek visual dalam sebuah iklan, baik itu elemen desain gambar, foto, atau layout. Ia juga bertugas untuk mengarahkan sekaligus bekerjasama dengan graphic designer serta visualizer untuk mewujudkan konsep visual yang dibuatnya."
+
+               ],
+               "context": [""]
+          }
+     ]
+}
